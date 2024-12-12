@@ -9,7 +9,7 @@ import os
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-
+        
         self.ui = UI_MainWindow()
         self.ui.setup_ui(self)
         # Configurações principais da janela
